@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+            <span class="cabeçalho__menu-hamburguer container__imagem"></span> </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Livro</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Autor</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Frases</a>
+                </li>
+              
+            </ul>
+            <img src="img/Logo.svg" alt="logo Alura Books" class="container__imagem">
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Livro</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Autor</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Frase</a>
+                </li>
+            </ul> 
+                <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+                <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
+        </ul>
+
+        <div class="container">
+            <a href="#"><img src="img/Favoritos.svg" alt="favoritos" class="container__imagem container__imagem-transparente"></a>
+            <a href="#" class="container__link"><img src="img/Compras.svg" alt="Compras" class="container__imagem">
+            <p class="container__texto">Minha Sacola</p></a>
+            <a href="#" class="container__link"> <img src="img/Usuario.svg" alt="Usuario" class="container__imagem">
+            <p class="container__texto">Meu perfil</p></a>
+        </div>
+    </header>
+
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Saiba mais desta obra!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual sua duvida?">
+    </section>    
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Sobre o livro</h2>
+
+    <div class="carrossel__container">
+        <!-- Slider main container -->
+    <div class="swiper">
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+     <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+       <!-- Slides -->
+       <div class="swiper-slide"><img src="img/abdmncapa.jpg" alt="Livro capa"></div>
+       <div class="swiper-slide">    <img src="img/abdmnatras.jpg" alt="livro atras"></div>
+       <div class="swiper-slide"><img src="img/brilhando.jpg" alt="livro brilho"></div>
+       <div class="swiper-slide"><img src="img/frase.jpg" alt="frase"></div>
+       <div class="swiper-slide"><img src="img/frase2.jpg" alt="frase"></div>
+       <div class="swiper-slide"><img src="img/frase3.jpg" alt="frase"></div>
+     </div>
+    
+     <!-- If we need navigation buttons -->
+     <div class="swiper-button-prev"></div>
+     <div class="swiper-button-next"></div>
+      </div>
+      <div class="card">
+        <div class="card__descrição">
+            <div class="descrição">
+                <img src="img/Estrelinhas.svg" alt=" Estrelinhas">
+            <h3 class="descrição__titulo">Autora</h3>
+            <h2 class="descrição__titulo-livro">Matt Haig</h2>
+            <p class="descrição__texto">Matt Haig é um autor britânico nascido em 1975, conhecido por suas obras que exploram a saúde mental e a vida humana. Seus livros incluem "Reasons to Stay Alive", uma autobiografia sobre sua luta com a depressão, e "The Midnight Library", um romance que combina fantasia e reflexão sobre escolhas de vida. Haig é reconhecido por seu estilo acessível e empático.</p>
+            </div>
+
+            <img src="img/autor.jpg" class="descriçaõ__imagem">
+        </div>
+        <div class="card__botoes">
+            <ul class="botoes">
+                <li class="botoes__item"><img src="img/Favoritos.svg" alt="favoritos"></li>
+                <li class="botoes__item"><img src="img/Compras.svg" alt="compras"></li>
+            </ul>
+            <a href="#" class="botoes__ancora">Saiba Mais</a>
+        </div>
+      </div>   
+ 
+    </div>
+        
+
+    </section>
+
+
+    <section class="topicos">
+        <h2 class="topicos__titulo">TÓPICOS</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item"><a href="#" class="topicos__link">Livro</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Autor</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link"> Frases</a></li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto"> Atualizações de e-books, novos livros, e outros.</p>
+        </div>
+        <input type="email" placeholder="         Cadastre seu e-mail " class="contato__email">
+    </section>
+
+<hr   />
+
+   <footer class="rodape">
+    <h2 class="rodape__titulo">Mavi Productions</h2>
+    
+   </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+       });
+    </script>
+    
+</body>
+</html>
