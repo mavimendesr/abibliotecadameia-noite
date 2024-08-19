@@ -53,13 +53,13 @@
 
 .descrição__titulo-livro{
     color: var(--amarelo);
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
     margin: 0.5em 0;
 }
 
 .descrição__texto{
-        font-size: 20px;
+        font-size: 14px;
 }
 
 .botoes__item{
@@ -91,6 +91,17 @@
     .swiper-button-next {
         display: block;
         top: 60%;
+    }
+
+    .descrição__titulo-livro{
+        color: var(--amarelo);
+        font-size: 26px;
+        font-weight: 700;
+        margin: 0.5em 0;
+    }
+    
+    .descrição__texto{
+            font-size: 20px;
     }
 
 
